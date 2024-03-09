@@ -1,0 +1,8 @@
+list1=[]
+n=5
+for i in range(n):
+    a=int(input("Enter the number:"))
+    list1.append(a)
+for i in list1:
+    if i>=0:
+          print(i,end=' ')
